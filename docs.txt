@@ -1,0 +1,52 @@
+1. Install library: 
+
+Open your command window in folder
+
+Run code:
+
+pip install -r requirements.txt
+
+or
+
+pip3 install -r requirements.txt
+
+
+
+2. Run file:
+
+python run.py
+
+or
+
+python3 run.py
+
+
+
+3. Install Your VPN ( Hola VPN)
+
+
+4. Close all other tab keep only Rollbit tab
+
+Now you can login and choose Future in Rollbit
+
+
+5. Add to your TradingView API:
+
+url:
+
+http://127.0.0.1:2808/neworder
+
+with message:
+
+{
+    "symbol":"btc",
+    "side":"down",
+    "percent":5,
+    "payout":344
+}
+
+
+symbol: is Cryptocurrency of your choice
+side: is "up" or "down"
+percent: is the percentage of your balance that you want to order
+payout: is payout multiplier
